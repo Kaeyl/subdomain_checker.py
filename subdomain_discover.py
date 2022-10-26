@@ -10,7 +10,7 @@ def request(url):
         pass
 
 
-target_url = "google.com"
+target_url = "website you want to scan for subdomains"
 
 # discover subdomains
 with open("path to wordlist file", "r") as wordlist_file:
